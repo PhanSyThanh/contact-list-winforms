@@ -35,6 +35,7 @@
             this.txtSoDienThoai = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtGmail = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtHoTen
@@ -94,11 +95,21 @@
             this.txtGmail.Size = new System.Drawing.Size(275, 22);
             this.txtGmail.TabIndex = 8;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(352, 48);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(113, 16);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Thông tin bổ sung";
+            // 
             // AddContactForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.txtGmail);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtSoDienThoai);
@@ -122,5 +133,6 @@
         private System.Windows.Forms.TextBox txtSoDienThoai;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtGmail;
+        private System.Windows.Forms.Label label4;
     }
 }
